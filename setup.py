@@ -12,15 +12,10 @@ with open('docs/HISTORY.md') as history_file:
 
 requirements = [
         'pandas',
-        'numba',
         'numpy',
-        'scipy',
-        'pynwb',
-        'tabulate',
-        'pyqt5',
-        'pyqtgraph',
-        'h5py',
+        'scipy'
         ]
+#'pynwb','tabulate','pyqt5','pyqtgraph','h5py','numba',
 
 test_requirements = [
     'pytest'
